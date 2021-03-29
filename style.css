@@ -1,0 +1,484 @@
+/* Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e6e6e6;
+}
+header {
+    background-image: url("assets/banner2.jpg");
+    min-height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo-adjust {
+
+  margin-left: 10em;
+
+}
+  /* NavBar */
+  ul {
+    list-style: none;
+    padding-right: 15%;
+    padding-top: 5%;
+    
+  }
+  
+  li {
+      float: right;
+      font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+    }
+
+    /* Fontes */
+    @font-face{
+      font-family:PlutoBold;
+      src: url(assets/fonts/PlutoBold.ttf);
+    }
+    @font-face{
+      font-family:PlutoThin;
+      src: url(assets/fonts/PlutoThin.ttf);
+    }
+    @font-face{
+      font-family:PlutoLight;
+      src: url(assets/fonts/PlutoLight.ttf);
+    }
+    @font-face{
+      font-family:PlutoExtraLight;
+      src: url(assets/fonts/PlutoExtraLight.ttf);
+    }        
+    @font-face{
+      font-family:PlutoCondRegular;
+      src: url(assets/fonts/PlutoCondRegular.ttf);
+    }
+    @font-face{
+      font-family:ProductSansRegular;
+      src: url(assets/fonts/Product\ Sans\ Regular.ttf);
+    }           
+    @font-face{
+      font-family:PlutoRegular;
+      src: url(assets/fonts/PlutoRegular.ttf);
+    }    
+    p{
+      font-family: PlutoRegular
+    }
+    h1{
+      font-family: PlutoBold
+    }
+    h2{
+      font-family: PlutoBold
+    }
+    h3{
+      font-family: PlutoBold
+    }
+    h4{
+      font-family: PlutoBold
+    }
+    button{
+      font-family: PlutoRegular
+    }
+    input{
+      font-family: PlutoBold
+    }
+ 
+/* Sessões */
+#sobre1 {
+ color: #e6e6e6;
+ background-color: #222127;
+ padding: 10px 0 10px;
+ text-align: justify;
+}
+#sobre1 h1 {
+    margin: 8%;
+    text-align: center;
+}
+#sobre2 {
+    color: #e6e6e6;
+    background-color: #0086be;
+    padding: 10px 0 10px;
+}
+#sobre2 div p {
+    font-size: 15px;
+    position: absolute;
+}
+#sobre3 {
+    background-color: #e6e6e6;
+    padding: 10px 0 10px;
+}
+#sobre3 p {
+    color: #4d4d4d;;
+    margin: 8%;
+    font-size: 20px;
+}
+#sobre4 {
+    background: rgb(34,33,39);
+    background: linear-gradient(0deg, rgba(34,33,39,1) 70%, rgba(230,230,230,1) 70%);
+    text-align:center
+}
+#sobre4 img {
+    max-width: 70%;
+    height: auto;
+}
+#sobre5 {
+    background-color: #e6e6e6;
+    max-width: 950px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+#sobre6 {
+    background-color: #222127;
+}
+#sobre6 img {
+    padding-top: 20%;
+    padding-bottom: 80px;
+    margin-left: 13%;
+    
+}
+#sobre7 {
+  background-color: #e6e6e6;
+}
+#sobre7 img {
+  max-width: 20%;
+  height: auto;
+}
+#sobre8 {
+  background-color: #222127;
+}
+#sobre9 {
+  background-image: url("assets/middle.png");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sobre9 div p {
+  font-size: 20px;
+  font-family: ProductSansRegular;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  max-width: 30%; 
+}
+#sobre10 {
+  background-color: #e6e6e6;
+}
+#sobre10 img {
+  max-width: 70%;
+  height: auto;
+  padding: 15% 0 15%;
+}
+#sobre11 {
+  background-color: #222127;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/* Classes */
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sub {
+    background-color: #0086be;
+    border: none;
+    color: white;
+    padding: 20px 54px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 900;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub2 {
+  background-color: #0086be;
+  border: none;
+  color: white;
+  padding: 15px 54px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 900;
+  display: block;
+  max-width: 60%;
+  transition: 0.3s;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sub:hover {
+    background: #079ddb;
+    text-decoration: none;
+}
+.caixa-dois {
+    padding: 70px 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .avatar {
+    margin: 4%;
+    width: 27%;
+    height: 100%;
+  }
+  .avt-txt {
+      padding-bottom: 35px;
+      font-size: 40px;
+      color: #0086be;
+  }
+  .avt-title {
+      font-size: 30px;
+      font-family: PlutoLight;
+      color: #666666;
+      
+  }
+  .avt-txt-desc {
+    font-size: 19px;
+    font-family: PlutoLight;
+    color: #4d4d4d;
+    text-align: justify;
+    width: 500px;
+  }
+  .p1 {
+    font-size: 40px;
+    color: #666666;
+    text-align: start;
+  }
+
+  .normalized-img {
+    max-width: 10%;
+    height: auto;
+  }
+  .desc {
+    width: 400px;
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 13%;
+}
+  .desc1 {
+    color: #222127;
+    width: 200px;
+    font-size: 40px;
+    margin-left: 13%;
+    font-size: PlutoBold;
+  }
+  .underline2 {
+    padding-top: 10%;
+    margin-left: 13%;
+    color: #0086be;
+    font-size: 40px;
+  }
+  .underline3 {
+     padding-top: 15%;
+    margin-left: 13%;
+    color: #0086be;
+    font-size: 40px;
+  }
+  .underline4 {
+   padding-top: 12%;
+   color: #0086be;
+   font-size: 50px;
+ }
+  .desc-dois {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-family: PlutoExtraLight;
+    width: 500px;
+    text-align: justify;
+    padding-bottom: 150px;
+}
+.desc-dois2 {
+  color: #e6e6e6;
+  font-size: 20px;
+  font-family: PlutoExtraLight;
+  width: 500px;
+  text-align: justify;
+  padding-bottom: 500px;
+}
+.desc-tres {
+  color: #999999;
+  font-size: 20px;
+  font-family: PlutoRegular;
+  width: 700px;
+  text-align: start;
+  padding-bottom: 500px;
+  padding-left: 40%;
+}
+.caixa-tres {
+    display: flex;
+    flex-direction: row;
+}
+.caixa-tres3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.underline {
+  margin-left: 13%;
+  color: #0086be;
+  font-size: 40px;
+}
+.btnlive {
+  background-color:#990000;
+  height: 90px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  font-size: 60px;
+  font-family: PlutoCondRegular;
+  margin-top: -30%;
+  margin-left: 15%;
+  border-color: transparent;
+}
+.desc-seis {
+  max-width: 40%;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 13%;
+  font-family: PlutoExtraLight;
+}
+.desc-quatro {
+  width: 400px;
+  color: #ffffff;
+  font-size: 35px;
+  margin-left: 13%;
+  padding-bottom: 60%;
+}
+.desc-cinco {
+  color: #e6e6e6;
+  font-size: 20px;
+  font-family: PlutoExtraLight;
+  width: 500px;
+  text-align: start;
+  padding-bottom: 150px;
+}
+.conteudoprogramatico {
+  color:#999999;
+  font-family:PlutoExtraLight;
+}
+.caixa-quatro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10% 0 10%;
+}
+.caixa-cinco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.valores {
+  font-size: 40px;
+  color: #ffffff;
+}
+.valordocurso {
+  font-size: 20px;
+  font-family: PlutoExtraLight;
+}
+.azul {
+  color: #0086be;
+}
+.formasdepagamento {
+  font-size: 20px;
+  font-family: PlutoExtraLight;
+}
+.valordoinvestimento {
+  font-size: 40px;
+}
+.pequeno {
+  font-size: 20px;
+}
+
+#auladesc {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
+#list div {
+  margin-top: 10px;
+  font-size: 20px;
+} 
+.colors {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: PlutoExtraLight;
+  width: 500px;
+  text-align: start;
+  padding-bottom: 150px;
+}
+.colors2 {
+  color: #ffffff;
+  font-family: PlutoExtraLight;
+  width: 500px;
+  text-align: start;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+
+
+
+
+
+footer {
+    background-image: url(assets/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0 100px 0;
+  }
+  .space-around {
+    display: flex;
+    justify-content: space-around;
+   }
+   .icons {
+    padding-right: 20px;
+  }
+
