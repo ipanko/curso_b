@@ -7,24 +7,27 @@
 body {
     background-color: #e6e6e6;
 }
+
 header {
-    background-image: url("assets/banner2.jpg");
-    min-height: 730px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
 }
 #logo-adjust {
-
-  margin-left: 10em;
-
+  padding-left: 10em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 3em;
+  max-width: 25%;
+  height: auto;
 }
   /* NavBar */
   ul {
     list-style: none;
-    padding-right: 15%;
-    padding-top: 5%;
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 9em;
+    padding-top: 3em;
   }
   
   li {
@@ -111,14 +114,20 @@ header {
     margin: 8%;
     text-align: center;
 }
-#sobre2 {
-    color: #e6e6e6;
-    background-color: #0086be;
-    padding: 10px 0 10px;
+.sobre2 {
+  background-color: #0884bc;
 }
-#sobre2 div p {
-    font-size: 15px;
-    position: absolute;
+.sobre2 p {
+  color: #e6e6e6;
+  font-family: PlutoExtraLight;
+  font-size: 20px;
+  padding-top: 40px;
+  
+}
+.sobre2 img {
+  max-width: 60%;
+  height: auto;
+  padding-top: 30%;
 }
 #sobre3 {
     background-color: #e6e6e6;
@@ -426,6 +435,14 @@ header {
 .oitenta {
   max-width: 80%;
   margin: auto;
+}
+
+
+.image-adjust {
+max-width: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 #auladesc {
