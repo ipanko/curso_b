@@ -158,7 +158,7 @@ header {
   background-color: #e6e6e6;
 }
 #sobre7 img {
-  max-width: 20%;
+  max-width: 50%;
   height: auto;
 }
 #sobre8 {
@@ -299,12 +299,9 @@ header {
     color: #222127;
     width: 200px;
     font-size: 40px;
-    margin-left: 13%;
     font-size: PlutoBold;
   }
   .underline2 {
-    padding-top: 10%;
-    margin-left: 13%;
     color: #0086be;
     font-size: 40px;
   }
@@ -341,8 +338,6 @@ header {
   font-family: PlutoRegular;
   width: 700px;
   text-align: start;
-  padding-bottom: 500px;
-  padding-left: 40%;
 }
 .caixa-tres {
     display: flex;
@@ -427,6 +422,10 @@ header {
 }
 .pequeno {
   font-size: 20px;
+}
+.oitenta {
+  max-width: 80%;
+  margin: auto;
 }
 
 #auladesc {
