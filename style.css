@@ -148,10 +148,6 @@ header {
 #sobre7 {
   background-color: #e6e6e6;
 }
-#sobre7 img {
-  max-width: 50%;
-  height: auto;
-}
 #sobre8 {
   background-color: #222127;
 }
@@ -346,6 +342,7 @@ header {
   font-family: Museo700;
   width: 700px;
   text-align: start;
+  padding-left: 40%;
 }
 .caixa-tres {
     display: flex;
@@ -464,9 +461,18 @@ padding-bottom: 50px;
 .row {
   display: flex;
 }
-
 .column {
   flex: 50%;
+}
+.hotmart {
+  max-width: 50%;
+  height: auto;
+  padding-left: 10%;
+}
+.data {
+  max-width: 85%;
+  padding: 20% 0% 30%;
+  height: auto;
 }
 footer {
     background-image: url(assets/footer.png);
