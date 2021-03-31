@@ -462,10 +462,11 @@ header {
   margin: auto;
 }
 .image-adjust {
-max-width: 150px;
+max-width: 260px;
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-bottom: 50px;
 }
 #list div {
   margin-top: 10px;
