@@ -95,29 +95,19 @@ header {
     @font-face{
       font-family:PlutoRegular;
       src: url(assets/fonts/PlutoRegular.ttf);
+    }
+    @font-face{
+      font-family:GoldplayBold;
+      src: url(assets/fonts/Goldplay_Bold.otf);
+    }
+    @font-face{
+      font-family:GoldplayRegular;
+      src: url(assets/fonts/Goldplay_Regular.otf);
+    }
+    @font-face{
+      font-family:Museo700;
+      src: url(assets/fonts/museo-700.otf);
     }    
-    p{
-      font-family: PlutoRegular
-    }
-    h1{
-      font-family: PlutoBold
-    }
-    h2{
-      font-family: PlutoBold
-    }
-    h3{
-      font-family: PlutoBold
-    }
-    h4{
-      font-family: PlutoBold
-    }
-    button{
-      font-family: PlutoRegular
-    }
-    input{
-      font-family: PlutoBold
-    }
- 
 /* Sessões */
 #sobre1 {
  color: #e6e6e6;
@@ -128,13 +118,14 @@ header {
 #sobre1 h1 {
     margin: 8%;
     text-align: center;
+    font-family: Museo700;
 }
 .sobre2 {
   background-color: #0884bc;
 }
 .sobre2 p {
   color: #e6e6e6;
-  font-family: PlutoExtraLight;
+  font-family: GoldplayRegular;
   font-size: 20px;
   padding-top: 40px;
   
@@ -151,7 +142,8 @@ header {
 #sobre3 p {
     color: #4d4d4d;;
     margin: 8%;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: GoldplayRegular;
 }
 #sobre4 {
     background: rgb(34,33,39);
@@ -190,18 +182,20 @@ header {
 }
 #sobre9 {
   background-image: url("assets/middle.png");
-  min-height: 500px;
+  min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#sobre9 div p {
+#sobre9 img {
+  max-width: 70%;
+  height: auto;
+  padding-top: 30%;
+}
+#sobre9 p {
+  color: #e6e6e6;
   font-size: 20px;
-  font-family: ProductSansRegular;
-  color: #ffffff;
-  text-align: center;
-  position: absolute;
-  max-width: 30%; 
+  font-family: GoldplayRegular;
 }
 #sobre10 {
   background-color: #e6e6e6;
@@ -214,6 +208,15 @@ header {
 #sobre11 {
   background-color: #222127;
   color: #ffffff;
+}
+#sobre12 {
+  text-align: start;
+  font-size: 1.5rem;
+  padding: 7% 0 15%;
+}
+#sobre12 p {
+  font-family: GoldplayRegular;
+  color: #666666;
 }
 
 
@@ -289,16 +292,17 @@ header {
       padding-bottom: 35px;
       font-size: 40px;
       color: #0086be;
+      font-family: Museo700;
   }
   .avt-title {
       font-size: 30px;
-      font-family: PlutoLight;
+      font-family: Museo700;
       color: #666666;
-      
+      font-weight: lighter;
   }
   .avt-txt-desc {
     font-size: 19px;
-    font-family: PlutoLight;
+    font-family: GoldplayRegular;
     color: #4d4d4d;
     text-align: justify;
     width: 500px;
@@ -307,6 +311,8 @@ header {
     font-size: 40px;
     color: #666666;
     text-align: start;
+    font-family: Museo700;
+    line-height: 90%;
   }
 
   .normalized-img {
@@ -314,16 +320,19 @@ header {
     height: auto;
   }
   .desc {
-    width: 400px;
+    width: 350px;
     color: #ffffff;
     font-size: 50px;
     margin-left: 13%;
+    line-height: 90%;
+    font-family: Museo700;
 }
   .desc1 {
     color: #222127;
-    width: 200px;
+    width: 180px;
     font-size: 40px;
-    font-size: PlutoBold;
+    font-family: Museo700;
+    line-height: 90%;
   }
   .underline2 {
     color: #0086be;
@@ -341,17 +350,17 @@ header {
    font-size: 50px;
  }
   .desc-dois {
-    color: #e6e6e6;
+    color: #cccccc;
     font-size: 20px;
-    font-family: PlutoExtraLight;
+    font-family: GoldplayRegular;
     width: 500px;
     text-align: justify;
     padding-bottom: 150px;
 }
 .desc-dois2 {
-  color: #e6e6e6;
+  color: #cccccc;
   font-size: 20px;
-  font-family: PlutoExtraLight;
+  font-family: GoldplayRegular;
   width: 500px;
   text-align: justify;
   padding-bottom: 500px;
@@ -359,7 +368,7 @@ header {
 .desc-tres {
   color: #999999;
   font-size: 20px;
-  font-family: PlutoRegular;
+  font-family: Museo700;
   width: 700px;
   text-align: start;
 }
@@ -402,6 +411,8 @@ header {
   font-size: 35px;
   margin-left: 13%;
   padding-bottom: 60%;
+  font-family: Museo700;
+  line-height: 95%;
 }
 .desc-cinco {
   color: #e6e6e6;
@@ -413,13 +424,8 @@ header {
 }
 .conteudoprogramatico {
   color:#999999;
-  font-family:PlutoExtraLight;
-}
-.caixa-quatro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10% 0 10%;
+  font-family: GoldplayRegular;
+  font-size: 20px;
 }
 .caixa-cinco {
   display: flex;
@@ -429,20 +435,24 @@ header {
 .valores {
   font-size: 40px;
   color: #ffffff;
+  font-family: Museo700;
 }
 .valordocurso {
   font-size: 20px;
-  font-family: PlutoExtraLight;
+  font-family: GoldplayRegular;
+  color: #e6e6e6;
 }
 .azul {
   color: #0086be;
 }
 .formasdepagamento {
   font-size: 20px;
-  font-family: PlutoExtraLight;
+  font-family: GoldplayRegular;
+  color: #e6e6e6;
 }
 .valordoinvestimento {
   font-size: 40px;
+  font-family: Museo700;
 }
 .pequeno {
   font-size: 20px;
@@ -451,22 +461,12 @@ header {
   max-width: 80%;
   margin: auto;
 }
-
-
 .image-adjust {
 max-width: 150px;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
-
-#auladesc {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-
-
 #list div {
   margin-top: 10px;
   font-size: 20px;
@@ -474,7 +474,7 @@ align-items: center;
 .colors {
   color: #ffffff;
   font-size: 20px;
-  font-family: PlutoExtraLight;
+  font-family: Museo700;
   width: 500px;
   text-align: start;
   padding-bottom: 150px;
@@ -492,12 +492,6 @@ align-items: center;
 .column {
   flex: 50%;
 }
-
-
-
-
-
-
 footer {
     background-image: url(assets/footer.png);
     background-repeat: no-repeat;
