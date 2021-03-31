@@ -69,34 +69,6 @@ header {
     }
     /* Fontes */
     @font-face{
-      font-family:PlutoBold;
-      src: url(assets/fonts/PlutoBold.ttf);
-    }
-    @font-face{
-      font-family:PlutoThin;
-      src: url(assets/fonts/PlutoThin.ttf);
-    }
-    @font-face{
-      font-family:PlutoLight;
-      src: url(assets/fonts/PlutoLight.ttf);
-    }
-    @font-face{
-      font-family:PlutoExtraLight;
-      src: url(assets/fonts/PlutoExtraLight.ttf);
-    }        
-    @font-face{
-      font-family:PlutoCondRegular;
-      src: url(assets/fonts/PlutoCondRegular.ttf);
-    }
-    @font-face{
-      font-family:ProductSansRegular;
-      src: url(assets/fonts/Product\ Sans\ Regular.ttf);
-    }           
-    @font-face{
-      font-family:PlutoRegular;
-      src: url(assets/fonts/PlutoRegular.ttf);
-    }
-    @font-face{
       font-family:GoldplayBold;
       src: url(assets/fonts/Goldplay_Bold.otf);
     }
@@ -107,6 +79,9 @@ header {
     @font-face{
       font-family:Museo700;
       src: url(assets/fonts/museo-700.otf);
+    }
+    input {
+      font-family: GoldplayBold;
     }    
 /* Sessões */
 #sobre1 {
@@ -246,7 +221,7 @@ header {
     padding: 20px 54px;
     text-align: center;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     cursor: pointer;
     border-radius: 40px;
     font-weight: 900;
