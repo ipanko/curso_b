@@ -506,71 +506,150 @@ footer {
 
 /*Mobile Version*/
 @media (max-width: 768px) {
-.aprenda-mobile {
-  padding: 20px 0 50px;
-  text-align: center;
-  margin: 5%;
-  font-family: Museo700;
-  color: #666666;
-  font-size: 50px;
-}
-.avatar-mobile {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
-  padding-top: 30px;
-}
-#professores-mobile {
-  padding-top: 20px;
-  text-align: center;
-  margin: 5%;
-  font-family: Museo700;
-  font-weight: lighter;
-  color: #666666;
-  font-size: 40px;
-}
-#professores-mobile::after {
-  width: 0px;
-  height: 0px;
-  background-color: currentColor;
-  display: none;
-}
-.onlymobile {
-  display: block;
-}
-.nsfmobile {
-  display: none;
-}
-.caixa-mobile {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-}
-.avatar-text-mobile {
-  font-size: 30px;
-  margin: 30px;
-  justify-content: unset;
-  color: #0086be;
-  font-family: Museo700;
+  .aprenda-mobile {
+    padding: 20px 0 50px;
+    text-align: center;
+    margin: 5%;
+    font-family: Museo700;
+    color: #666666;
+    font-size: 50px;
+  }
+  .avatar-mobile {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    padding-top: 30px;
+  }
+  #professores-mobile {
+    padding-top: 20px;
+    text-align: center;
+    margin: 5%;
+    font-family: Museo700;
+    font-weight: lighter;
+    color: #666666;
+    font-size: 40px;
+  }
+  #professores-mobile::after {
+    width: 0px;
+    height: 0px;
+    background-color: currentColor;
+    display: none;
+  }
+  .onlymobile {
+    display: block;
+  }
+  .nsfmobile {
+    display: none;
+  }
+  .caixa-mobile {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .avatar-text-mobile {
+    font-size: 30px;
+    margin: 30px;
+    justify-content: unset;
+    color: #0086be;
+    font-family: Museo700;
 
-}
-.avatar-textpadding-mobile {
-  padding-left: 0%;
-}
-.avatar-description-mobile {
-  font-size: 17px;
+  }
+  .avatar-textpadding-mobile {
+    padding-left: 0%;
+  }
+  .avatar-description-mobile {
+    font-size: 17px;
+    margin: 30px;
+    justify-content: unset;
+    text-align:left;
+    font-family: GoldplayRegular;
+    color: #4d4d4d;
+    text-align: justify;
+  }
+  #column-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .caixa-tres {
+    display: flex;
+    flex-direction: column;
+  }
+  .desc-dois {
+    font-size: 17px;
+    margin: 30px;
+    justify-content: unset;
+    text-align:left;
+    font-family: GoldplayRegular;
+    text-align: justify;
+    width: auto;
+  }
+  .desc-dois2 {
   margin: 30px;
   justify-content: unset;
   text-align:left;
-  font-family: GoldplayRegular;
-  color: #4d4d4d;
   text-align: justify;
-}
-#column-mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  width: auto;
+  }
+  .desc-tres {
+    margin: 30px;
+    justify-content: unset;
+    color: #999999;
+    font-size: 20px;
+    font-family: Museo700;
+    width: 700px;
+    text-align: start;
+    padding-left: 0;
+    width: auto;
+    padding-bottom: 30px;
+    }
+  .list div {
+    margin: 30px;
+    width: auto;
+  }
+  .desc-quatro {
+    margin: 30px;
+    margin: 5%;
+    justify-content: unset;
+    text-align: start;
+    padding-bottom: 10%;
+  }
+  .underline3 {
+    margin-left: 5%;
+  }
+  .desc {
+    margin: 0%;
+    margin: 30px;
+  }
+  .desc-dois {
+    padding-bottom: 50px;
+  }
+  .desc-dois2 {
+    padding-bottom: 150px;
+  }
+  .underline {
+    margin: 0%;
+    margin: 30px;
+  }
+  .normalized-img {
+    max-width: 90%;
+  }
+  #curso img {
+    padding-top: 70px;
+    padding-bottom: 0;
+    margin-left: 0;
+  }
+  .conteudoprogramatico {
+    font-size: 17px;
+  }
+  .colors {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: Museo700;
+    width: auto;
+    text-align: start;
+    padding-bottom: 150px;
+  }
 }
 
